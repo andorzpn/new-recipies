@@ -1,1 +1,1 @@
-# new-recipies
+# odin-recipies
