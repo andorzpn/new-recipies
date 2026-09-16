@@ -1,0 +1,73 @@
+* { font-family: Arial, sans-serif;
+
+}   
+.A {
+    
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+
+  
+
+}  
+.B {
+   text-align: center;
+   margin-top: 210px;
+}
+.B ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+.homepage {
+    font-size: 20px;
+    color: rgb(226, 12, 208);
+    margin: 20px right 0;
+}
+.C {
+   
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto 0;
+}
+.C h1 {
+    text-align: center;
+    background-color: #968f8f;
+}
+
+.C p {
+   
+    font-size: 16px;
+}
+
+.C h2 {
+    text-align: center;
+
+}
+
+.C ul {
+    list-style-type: none; 
+    padding-left: 200px; 
+
+}
+.test {
+    position: fixed;   /* Fixe l'image par rapport à l'écran */
+    top: 0;
+    left: 0;
+    width: 100vw;      /* Prend 100% de la largeur de l'écran */
+    height: 100vh;     /* Prend 100% de la hauteur de l'écran */
+    object-fit: cover; /* Aligne et redimensionne l'image sans la déformer */
+    z-index: -1;       /* Place l'image EN DESSOUS de tout le texte */
+    opacity: 0.50;     /* Optionnel : rend l'image semi-transparente (25%) pour que le texte reste bien lisible */
+    pointer-events: none; /* Permet de cliquer "à travers" l'image si besoin */
+}
+.hero-image {
+    position: fixed;   /* Fixe l'image par rapport à l'écran */
+    top: 0;
+    left: 0;
+    width: 100vw;      /* Prend 100% de la largeur de l'écran */
+    height: 100vh;     /* Prend 100% de la hauteur de l'écran */
+    object-fit: cover; /* Aligne et redimensionne l'image sans la déformer */
+    z-index: -1;       /* Place l'image EN DESSOUS de tout le texte */
+    opacity: 0.50;     /* Optionnel : rend l'image semi-transparente (25%) pour que le texte reste bien lisible */
+    pointer-events: none; /* Permet de cliquer "à travers" l'image si besoin */
+}
